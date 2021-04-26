@@ -57,5 +57,8 @@ MARK_AS_ADVANCED(
 ADD_EXECUTABLE(WatershedSegmentation1 WatershedSegmentation1.cxx)
 TARGET_LINK_LIBRARIES(WatershedSegmentation1 ${ITK_LIBRARIES})
 
+ADD_EXECUTABLE(FastMarching FastMarching.cxx)
+TARGET_LINK_LIBRARIES(FastMarching ${ITK_LIBRARIES})
+
 
 ## eof - CMakeLists.txt
