@@ -185,7 +185,7 @@ PrintCommandLineUsage(const int argc, const char * const argv[])
     std::cerr << " inputImage  outputImage seedX seedY";
     std::cerr << " Sigma SigmoidAlpha SigmoidBeta TimeThreshold StoppingValue";
     std::cerr
-            << " smoothingOutputImage gradientMagnitudeOutputImage sigmoidOutputImage"
+            << " smoothingOutputImage gradientMagnitudeOutputImage sigmoidOutputImage seedY"
             << std::endl;
 
     for (int qq = 0; qq < argc; ++qq)
